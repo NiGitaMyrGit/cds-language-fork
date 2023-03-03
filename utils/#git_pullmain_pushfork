@@ -1,0 +1,24 @@
+# switch to your own fork
+git checkout main
+git status
+
+#if you have outstanding differences with remote
+git pull
+
+# or
+git add .
+git commit -m "{commit message}"
+git push origin main
+
+# then switch to the shared repo
+git checkout -b CDS-AU-DK-main main
+git config pull.rebase false
+git pull https://github.com/CDS-AU-DK/cds-visual.git main
+
+# work away as normal
+
+# before we finish today
+git checkout main
+git add .
+git commit -m "{commit message}"
+git push origin main
