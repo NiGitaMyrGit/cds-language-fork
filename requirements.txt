@@ -1,4 +1,5 @@
 bertopic
 scikit-learn
 pandas
-opencv-python
+tensorflow
+torch
