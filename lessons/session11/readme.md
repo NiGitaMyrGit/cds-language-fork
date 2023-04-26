@@ -14,8 +14,8 @@ These generative language models are so succesful that it's possible to use them
 - Prompt engineering in ```huggingface```
   - Work with ChatGPT for those who want to sign up
 - Specific tasks for testing zero-shot learning ability
-  - Grammatical analysis
+  - Grammatical analysi
   - NER
   - Classification
   - Text summarization
-  - etc, etc.
+  - go through previous notebooks and try to use gpt-3, hugging face and NER and compare how it 
